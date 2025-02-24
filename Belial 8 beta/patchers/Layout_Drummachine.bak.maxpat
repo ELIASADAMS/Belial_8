@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 628.0, 883.0 ],
+		"rect" : [ 42.0, 85.0, 520.0, 883.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,6 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -47,12 +46,11 @@
 					"enablevscroll" : 0,
 					"id" : "obj-22",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "men3.maxpat",
+					"name" : "Module_Drummachine.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -500.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 0.0, 51.0, 1366.0, 301.0 ],
 					"viewvisibility" : 1
 				}
@@ -62,7 +60,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
 					"fontname" : "Menlo Bold",
-					"htabcolor" : [ 0.894117647058824, 0.803921568627451, 0.36078431372549, 1.0 ],
+					"htabcolor" : [ 0.596078431372549, 0.345098039215686, 0.615686274509804, 1.0 ],
 					"id" : "obj-31",
 					"maxclass" : "tab",
 					"multiline" : 0,
@@ -70,11 +68,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 28.0, 200.0, 24.0 ],
+					"patching_rect" : [ 5.0, 27.0, 200.0, 24.0 ],
+					"prototypename" : "sexy menu roll",
 					"spacing_y" : 0.0,
-					"tabcolor" : [ 0.352941176470588, 0.317647058823529, 0.141176470588235, 1.0 ],
-					"tabs" : [ "MAIN", "FX", "CTRL" ],
-					"textcolor" : [ 0.894117647058824, 0.803921568627451, 0.36078431372549, 1.0 ],
+					"tabcolor" : [ 0.325490196078431, 0.188235294117647, 0.333333333333333, 1.0 ],
+					"tabs" : [ "INST", "ADD", "FX" ],
+					"textcolor" : [ 0.776470588235294, 0.63921568627451, 0.788235294117647, 1.0 ],
 					"valign" : 2
 				}
 
@@ -88,9 +87,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 212.0, 25.0 ],
-					"text" : "JOYSTICK",
-					"textcolor" : [ 0.505882352941176, 0.827450980392157, 0.423529411764706, 1.0 ]
+					"patching_rect" : [ 0.0, 0.071129769086838, 212.0, 25.0 ],
+					"text" : "DRUMMACHINE",
+					"textcolor" : [ 0.505882382392883, 0.82745099067688, 0.423529416322708, 1.0 ]
 				}
 
 			}
@@ -98,7 +97,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -115,7 +114,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 23.0, 500.0, 329.0 ],
+					"patching_rect" : [ 0.0, 27.0, 500.0, 329.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -125,7 +124,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -159,7 +158,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 500.0, 23.0 ],
+					"patching_rect" : [ 0.0, 0.0, 500.0, 41.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -296,7 +295,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 275.0, 171.0, 175.0, 171.0 ],
+					"midpoints" : [ 275.0, 177.0, 175.0, 177.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -304,21 +303,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
+					"midpoints" : [ 175.0, 234.0, 175.0, 234.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 175.0, 272.0, 104.75, 272.0, 104.75, 108.0, 34.5, 108.0 ],
+					"midpoints" : [ 175.0, 264.0, 99.0, 264.0, 99.0, 105.0, 34.5, 105.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -326,6 +319,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
+					"midpoints" : [ 175.0, 204.0, 175.0, 204.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -333,6 +327,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 400.5, 822.0, 400.5, 822.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -340,6 +335,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
+					"midpoints" : [ 275.0, 126.0, 275.0, 126.0 ],
 					"source" : [ "obj-30", 2 ]
 				}
 
@@ -347,6 +343,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 225.0, 126.0, 225.0, 126.0 ],
 					"source" : [ "obj-30", 1 ]
 				}
 
@@ -354,6 +351,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"midpoints" : [ 175.0, 126.0, 175.0, 126.0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -361,6 +359,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
+					"midpoints" : [ 14.5, 87.0, 175.0, 87.0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -369,6 +368,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"hidden" : 1,
+					"midpoints" : [ 9.5, 27.0, -3.0, 27.0, -3.0, 357.0, 0.0, 357.0, 0.0, 762.0, 289.0, 762.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -376,7 +376,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 225.0, 171.0, 175.0, 171.0 ],
+					"midpoints" : [ 225.0, 177.0, 175.0, 177.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -384,12 +384,40 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 175.0, 171.0, 175.0, 171.0 ],
+					"midpoints" : [ 175.0, 162.0, 175.0, 162.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-22::obj-26" : [ "number[19]", "number", 0 ],
+			"obj-22::obj-25" : [ "number[18]", "number", 0 ],
+			"obj-22::obj-563" : [ "number[12]", "number", 0 ],
+			"obj-22::obj-557" : [ "number[10]", "number", 0 ],
+			"obj-22::obj-21" : [ "number[17]", "number", 0 ],
+			"obj-22::obj-556" : [ "number[9]", "number", 0 ],
+			"obj-22::obj-564" : [ "number[13]", "number", 0 ],
+			"obj-22::obj-558" : [ "number[11]", "number", 0 ],
+			"obj-22::obj-565" : [ "number[14]", "number", 0 ],
+			"obj-22::obj-27" : [ "number[20]", "number", 0 ],
+			"obj-22::obj-19" : [ "number[15]", "number", 0 ],
+			"obj-22::obj-20" : [ "number[16]", "number", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "Module_Drummachine.maxpat",
+				"bootpath" : "D:/Ierarchy/ELI_LAB STUDIO/8. Coding/Belial_8/Belial 8 beta/patchers/Modules",
+				"patcherrelativepath" : "../Modules",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
