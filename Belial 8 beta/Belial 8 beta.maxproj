@@ -2,8 +2,8 @@
 	"name" : "Belial 8 beta",
 	"version" : 1,
 	"creationdate" : 3779091429,
-	"modificationdate" : 3823293264,
-	"viewrect" : [ 30.0, 79.0, 1280.0, 708.0 ],
+	"modificationdate" : 3823303990,
+	"viewrect" : [ -8.0, 79.0, 1280.0, 708.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -184,6 +184,20 @@
 		}
 ,
 		"code" : 		{
+			"StrangeSlider_2.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"StrangeSlider_3.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"jsui_360dial.js" : 			{
+				"kind" : "javascript"
+			}
+,
 			"freeverb.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
@@ -196,6 +210,16 @@
 ,
 			"freeverb_comb.gendsp" : 			{
 				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"Knob_1.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"jsui_default.js" : 			{
+				"kind" : "javascript",
 				"local" : 1
 			}
 
