@@ -2,8 +2,8 @@
 	"name" : "Belial 8 beta",
 	"version" : 1,
 	"creationdate" : 3779091429,
-	"modificationdate" : 3823418090,
-	"viewrect" : [ 132.0, 62.0, 1280.0, 708.0 ],
+	"modificationdate" : 3823434423,
+	"viewrect" : [ -8.0, 62.0, 1280.0, 708.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -295,6 +295,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"Submodule_SW.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -335,13 +340,13 @@
 		}
 ,
 		"other" : 		{
+			"moogLadderFilter.genexpr" : 			{
+				"kind" : "genexpr"
+			}
+,
 			"codebox.mxo" : 			{
 				"kind" : "file",
 				"local" : 1
-			}
-,
-			"moogLadderFilter.genexpr" : 			{
-				"kind" : "genexpr"
 			}
 ,
 			"Application.icns" : 			{

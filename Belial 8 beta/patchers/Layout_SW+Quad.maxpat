@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 26.0, 85.0, 923.0, 883.0 ],
+		"rect" : [ 26.0, 81.0, 923.0, 875.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"border" : 4,
+					"bordercolor" : [ 0.505882352941176, 0.827450980392157, 0.423529411764706, 1.0 ],
+					"id" : "obj-9",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 142.666671752929688, -2.666666984558105, 515.2921142578125, 329.64776611328125 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 500.0, 50.0 ],
+					"proportion" : 0.5,
+					"rounded" : 16
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -47,13 +66,13 @@
 					"id" : "obj-22",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Module_SecretWeapon_Old.maxpat",
+					"name" : "secretweapon.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -1000.0, 0.0 ],
+					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 74.0, 453.0, 590.0, 300.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 52.0, 590.0, 300.0 ],
+					"presentation_rect" : [ -12.666666984558105, 51.0, 500.0, 302.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -62,7 +81,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
 					"fontname" : "Menlo Bold",
-					"htabcolor" : [ 0.650980392156863, 0.8, 0.835294117647059, 1.0 ],
+					"htabcolor" : [ 0.505882352941176, 0.827450980392157, 0.423529411764706, 1.0 ],
 					"id" : "obj-31",
 					"maxclass" : "tab",
 					"mode" : 1,
@@ -70,15 +89,29 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 5.0, 29.0, 200.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 29.0, 200.0, 23.0 ],
+					"presentation_rect" : [ 10.166664123535156, 26.0, 194.833343505859375, 23.0 ],
+					"rounded" : 16.0,
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "tab[27]",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 2.0,
+							"parameter_initial" : [ -1.0 ],
+							"parameter_shortname" : "tab[27]",
+							"parameter_enum" : [ "SECRETWEAPON", "WARP", "QUAD" ],
+							"parameter_type" : 2
+						}
+
+					}
+,
 					"spacing_y" : 0.0,
-					"tabcolor" : [ 0.2, 0.282352941176471, 0.301960784313725, 1.0 ],
+					"tabcolor" : [ 0.2, 0.329411764705882, 0.168627450980392, 1.0 ],
 					"tabs" : [ "SECRETWEAPON", "WARP", "QUAD" ],
 					"textcolor" : [ 0.725490196078431, 0.843137254901961, 0.870588235294118, 1.0 ],
-					"valign" : 2
+					"varname" : "tab"
 				}
 
 			}
@@ -93,7 +126,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 1.0, 212.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 1.0, 212.0, 25.0 ],
+					"presentation_rect" : [ 5.0, 1.0, 207.0, 25.0 ],
 					"text" : "SW + QUAD",
 					"textcolor" : [ 0.505882382392883, 0.82745099067688, 0.423529416322708, 1.0 ]
 				}
@@ -117,6 +150,8 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"border" : 4,
+					"bordercolor" : [ 0.505882352941176, 0.827450980392157, 0.423529411764706, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -124,9 +159,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 843.0, 205.0, 500.0, 329.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 23.0, 500.0, 329.0 ],
+					"presentation_rect" : [ 0.0, 1.0, 500.0, 351.0 ],
 					"proportion" : 0.5,
-					"rounded" : 0
+					"rounded" : 16
 				}
 
 			}
@@ -424,28 +459,21 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-22::obj-56::obj-98::obj-848" : [ "live.gain~[8]", "level", 0 ],
-			"obj-22::obj-56::obj-103::obj-848" : [ "live.gain~[11]", "level", 0 ],
-			"obj-22::obj-849" : [ "live.gain~[27]", "level", 0 ],
-			"obj-22::obj-56::obj-109" : [ "tab[3]", "tab[3]", 0 ],
-			"obj-22::obj-154" : [ "live.gain~[29]", "level", 0 ],
-			"obj-22::obj-56::obj-104" : [ "tab[2]", "tab[2]", 0 ],
-			"obj-22::obj-56::obj-108::obj-848" : [ "live.gain~[10]", "level", 0 ],
-			"obj-22::obj-56::obj-282" : [ "live.gain~[25]", "live.gain~", 0 ],
-			"obj-22::obj-34" : [ "live.gain~[23]", "level", 0 ],
-			"obj-22::obj-56::obj-99" : [ "tab", "tab", 0 ],
-			"obj-22::obj-879" : [ "live.gain~[30]", "level", 0 ],
-			"obj-22::obj-878" : [ "live.gain~[38]", "level", 0 ],
-			"obj-22::obj-56::obj-235" : [ "live.gain~[18]", "live.gain~", 0 ],
-			"obj-22::obj-56::obj-98::obj-154" : [ "live.gain~[7]", "level", 0 ],
-			"obj-22::obj-56::obj-108::obj-154" : [ "live.gain~[9]", "level", 0 ],
-			"obj-22::obj-56::obj-6::obj-848" : [ "live.gain~[21]", "level", 0 ],
-			"obj-22::obj-56::obj-103::obj-154" : [ "live.gain~[17]", "level", 0 ],
-			"obj-22::obj-43" : [ "live.gain~[39]", "level", 0 ],
-			"obj-22::obj-25" : [ "live.gain~[26]", "level", 0 ],
-			"obj-22::obj-848" : [ "live.gain~[28]", "level", 0 ],
-			"obj-22::obj-56::obj-31" : [ "tab[1]", "tab[1]", 0 ],
-			"obj-22::obj-56::obj-6::obj-154" : [ "live.gain~[24]", "level", 0 ],
+			"obj-22::obj-6::obj-848" : [ "live.gain~[8]", "level", 0 ],
+			"obj-22::obj-103::obj-154" : [ "live.gain~[13]", "level", 0 ],
+			"obj-22::obj-235" : [ "live.gain~[26]", "live.gain~", 0 ],
+			"obj-22::obj-31" : [ "tab[4]", "tab[1]", 0 ],
+			"obj-22::obj-103::obj-848" : [ "live.gain~[14]", "level", 0 ],
+			"obj-31" : [ "tab[27]", "tab[27]", 0 ],
+			"obj-22::obj-6::obj-154" : [ "live.gain~[7]", "level", 0 ],
+			"obj-22::obj-99" : [ "tab[6]", "tab", 0 ],
+			"obj-22::obj-108::obj-154" : [ "live.gain~[11]", "level", 0 ],
+			"obj-22::obj-108::obj-848" : [ "live.gain~[12]", "level", 0 ],
+			"obj-22::obj-282" : [ "live.gain~[15]", "live.gain~", 0 ],
+			"obj-22::obj-98::obj-848" : [ "live.gain~[10]", "level", 0 ],
+			"obj-22::obj-104" : [ "tab[7]", "tab[2]", 0 ],
+			"obj-22::obj-98::obj-154" : [ "live.gain~[9]", "level", 0 ],
+			"obj-22::obj-109" : [ "tab[5]", "tab[3]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -453,13 +481,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Module_SecretWeapon_Old.maxpat",
-				"bootpath" : "D:/Ierarchy/ELI_LAB STUDIO/8. Coding/Belial_8/Belial 8 beta/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "secretweapon.maxpat",
 				"bootpath" : "D:/Ierarchy/ELI_LAB STUDIO/8. Coding/Belial_8/Belial 8 beta/patchers",
 				"patcherrelativepath" : ".",
@@ -474,7 +495,21 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "menu poll",
+				"default" : 				{
+					"elementcolor" : [ 0.2, 0.329411764705882, 0.168627450980392, 1.0 ],
+					"color" : [ 0.505882352941176, 0.827450980392157, 0.423529411764706, 1.0 ],
+					"clearcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"textcolor_inverse" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+					"fontname" : [ "Menlo Bold" ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
