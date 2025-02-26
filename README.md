@@ -59,4 +59,8 @@ This beta version focuses on stability and core features within the Max/MSP envi
 
 This is an early release, and your feedback and contributions are invaluable.  Explore the patchers, especially those related to sampling and sound manipulation. Experiment with the included tools, share your experiences, and help shape the future of Belial.  Stay tuned for updates, and feel free to reach out with any questions, bug reports, or suggestions for future enhancements.
 
+## Contact
+
+[Ilya Minin (Eli)](https://t.me/eli_adams)
+
 **Enjoy the sound!**
