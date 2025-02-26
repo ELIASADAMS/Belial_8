@@ -20620,7 +20620,7 @@
 					"name" : "Submodule_Mixer_Control.maxpat",
 					"numinlets" : 5,
 					"numoutlets" : 6,
-					"offset" : [ -220.0, -100.0 ],
+					"offset" : [ -154.0, -100.0 ],
 					"outlettype" : [ "signal", "signal", "int", "int", "", "int" ],
 					"patching_rect" : [ 151.966674500000067, 0.0, 64.022216999999955, 302.489714000000049 ],
 					"viewvisibility" : 1
@@ -21542,7 +21542,7 @@
 					"name" : "Submodule_Mixer_Control.maxpat",
 					"numinlets" : 5,
 					"numoutlets" : 6,
-					"offset" : [ -154.0, -100.0 ],
+					"offset" : [ -286.0, -100.0 ],
 					"outlettype" : [ "signal", "signal", "int", "int", "", "int" ],
 					"patching_rect" : [ 85.944457500000112, 0.0, 64.022216999999955, 302.489714000000049 ],
 					"viewvisibility" : 1
@@ -39215,7 +39215,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1798.053636760851987, -74.891370475292206, 25.0, 25.0 ]
+					"patching_rect" : [ 1798.053636760851987, -75.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -41977,7 +41977,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "Submodule_Mixer_Control.maxpat",
 				"bootpath" : "~/Documents/GitHub/Belial_8/Belial 8 beta/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../Documents/GitHub/Belial_8/Belial 8 beta/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
