@@ -2,8 +2,8 @@
 	"name" : "Belial 8 beta",
 	"version" : 1,
 	"creationdate" : 3779091429,
-	"modificationdate" : 3823303990,
-	"viewrect" : [ -8.0, 79.0, 1280.0, 708.0 ],
+	"modificationdate" : 3820607146,
+	"viewrect" : [ 0.0, 58.0, 1280.0, 708.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,47 +16,137 @@
 				"toplevel" : 1
 			}
 ,
-			"Module_Main_Rythm.maxpat" : 			{
+			"Gainer.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"Layout_SW+Quad.maxpat" : 			{
+			"IO.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"Module_SecretWeapon+QuadSampler.maxpat" : 			{
+			"VERBORATOR.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"Submodule_SW.maxpat" : 			{
+			"dv10.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"Module_Null.maxpat" : 			{
+			"dv11.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"Layout_Mixer.maxpat" : 			{
+			"dv12.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"Module_Mixer.maxpat" : 			{
+			"dv13.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"Submodule_Mixer_Control.maxpat" : 			{
+			"dv14.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"Module_Granul.maxpat" : 			{
+			"dv15.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dv2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dv3.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"secretweapon.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sw.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dv4.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dv5.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mixer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dv6.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dv7.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dv8.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dv9.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"men3.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"men4.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"men5.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"men6.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"men7.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"pan2S.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"poly.moogladderx2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -76,102 +166,17 @@
 				"local" : 1
 			}
 ,
-			"Layout_Joystick.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Joystick.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Reverb.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Layout_Drummachine.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Drummachine.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Dopplr.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"pan2S.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"IO.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Layout_Additional.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Additional.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_AMB.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Submodule_Creepyverb.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"poly.moogladderx2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Layout_Drumsynth.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Drum_Synth.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Cue_Player.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Layout_Under_Construction.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Under_Construction.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"sw.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"bp.Freeverb.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"men1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"men2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -180,60 +185,44 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"swroute.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"renonedsw.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"code" : 		{
-			"StrangeSlider_2.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
-			"StrangeSlider_3.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
-			"jsui_360dial.js" : 			{
-				"kind" : "javascript"
-			}
-,
 			"freeverb.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
+				"kind" : "gendsp"
 			}
 ,
 			"freeverb_allpass.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
+				"kind" : "gendsp"
 			}
 ,
 			"freeverb_comb.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
+				"kind" : "gendsp"
 			}
+
+		}
 ,
-			"Knob_1.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
-			"jsui_default.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
+		"externals" : 		{
+			"nw.gverb~.mxo" : 			{
+				"kind" : "object"
 			}
 
 		}
 ,
 		"other" : 		{
 			"moogLadderFilter.genexpr" : 			{
-				"kind" : "genexpr",
-				"local" : 1
-			}
-,
-			"codebox.mxo" : 			{
-				"kind" : "file",
-				"local" : 1
+				"kind" : "genexpr"
 			}
 ,
 			"Application.icns" : 			{
@@ -258,5 +247,6 @@
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
-	"sortmode" : 1
+	"sortmode" : 1,
+	"viewmode" : 1
 }

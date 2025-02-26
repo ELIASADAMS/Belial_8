@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 78.0, 1212.0, 645.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,13 +57,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 78.0, 185.0, 122.0 ],
+						"rect" : [ 111.0, 349.0, 620.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -96,7 +96,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, 219.523955999999998, 173.0, 20.0 ],
+									"patching_rect" : [ 37.0, 219.523955999999998, 173.0, 18.0 ],
 									"text" : "## Gen-based reverb effect ##"
 								}
 
@@ -110,7 +110,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 393.5, 441.33822600000002, 58.5, 22.0 ],
+									"patching_rect" : [ 393.5, 441.33822600000002, 58.5, 20.0 ],
 									"text" : "+~"
 								}
 
@@ -124,7 +124,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 651.5, 441.33822600000002, 58.5, 22.0 ],
+									"patching_rect" : [ 651.5, 441.33822600000002, 58.5, 20.0 ],
 									"text" : "+~"
 								}
 
@@ -138,7 +138,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 433.0, 394.146454000000006, 32.5, 22.0 ],
+									"patching_rect" : [ 433.0, 394.146454000000006, 32.5, 20.0 ],
 									"text" : "*~"
 								}
 
@@ -152,7 +152,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 691.0, 394.146454000000006, 32.5, 22.0 ],
+									"patching_rect" : [ 691.0, 394.146454000000006, 32.5, 20.0 ],
 									"text" : "*~"
 								}
 
@@ -166,7 +166,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 719.0, 166.768950999999987, 41.0, 22.0 ],
+									"patching_rect" : [ 719.0, 166.768950999999987, 41.0, 20.0 ],
 									"text" : "dbtoa"
 								}
 
@@ -180,7 +180,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 719.0, 134.768950999999987, 120.0, 22.0 ],
+									"patching_rect" : [ 719.0, 134.768950999999987, 120.0, 20.0 ],
 									"text" : "expr ($i1 - 100) * 0.6"
 								}
 
@@ -188,6 +188,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activefgdialcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.6 ],
 									"id" : "obj-101",
 									"maxclass" : "live.dial",
@@ -195,16 +196,16 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 719.0, 70.146454000000006, 44.0, 47.0 ],
+									"patching_rect" : [ 719.0, 70.146454000000006, 44.0, 48.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 138.415252685546875, 44.0, 44.0, 47.0 ],
+									"presentation_rect" : [ 138.415252685546875, 44.0, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 5,
 											"parameter_longname" : "Dry",
 											"parameter_mmax" : 100.0,
-											"parameter_shortname" : "Dry",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 5
+											"parameter_shortname" : "Dry"
 										}
 
 									}
@@ -223,7 +224,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 719.0, 213.17648299999999, 43.0, 23.0 ],
+									"patching_rect" : [ 719.0, 213.17648299999999, 43.0, 21.0 ],
 									"text" : "$1 20"
 								}
 
@@ -237,14 +238,14 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "bang" ],
-									"patching_rect" : [ 719.0, 253.67648299999999, 53.0, 23.0 ],
+									"patching_rect" : [ 719.0, 253.67648299999999, 53.0, 21.0 ],
 									"text" : "line~ 0."
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-6",
 									"maxclass" : "comment",
@@ -252,15 +253,16 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 595.5, 594.053954999999974, 33.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 143.915252685546875, 97.0, 33.0, 17.0 ],
+									"presentation_rect" : [ 147.915252685546875, 97.0, 33.0, 17.0 ],
 									"text" : "Right",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"textjustification" : 2
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
@@ -276,7 +278,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-39",
 									"maxclass" : "comment",
@@ -284,9 +286,10 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 926.0, 70.146454000000006, 37.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 145.915252685546875, 0.0, 33.0, 17.0 ],
+									"presentation_rect" : [ 147.915252685546875, 0.0, 33.0, 17.0 ],
 									"text" : "Right",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"textjustification" : 2
 								}
 
 							}
@@ -299,7 +302,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 893.0, 152.858092999999997, 42.0, 22.0 ],
+									"patching_rect" : [ 893.0, 152.858092999999997, 42.0, 20.0 ],
 									"text" : "*~ 0.2"
 								}
 
@@ -326,7 +329,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 651.5, 493.053954999999974, 32.5, 22.0 ],
+									"patching_rect" : [ 651.5, 493.053954999999974, 32.5, 20.0 ],
 									"text" : "*~ 5"
 								}
 
@@ -340,7 +343,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 559.0, 548.053954999999974, 204.0, 22.0 ],
+									"patching_rect" : [ 559.0, 548.053954999999974, 204.0, 20.0 ],
 									"text" : "selector~ 2 1"
 								}
 
@@ -366,7 +369,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 40.455986000000003, 109.739684999999994, 59.5, 22.0 ],
+									"patching_rect" : [ 40.455986000000003, 109.739684999999994, 59.5, 20.0 ],
 									"restore" : 									{
 										"Damp" : [ 0.779528 ],
 										"Dry" : [ 6.535433 ],
@@ -376,7 +379,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u789009944"
+									"varname" : "u453010302"
 								}
 
 							}
@@ -389,7 +392,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 352.357544000000019, 179.362182999999987, 42.0, 22.0 ],
+									"patching_rect" : [ 352.357544000000019, 179.362182999999987, 42.0, 20.0 ],
 									"text" : "*~ 0.2"
 								}
 
@@ -403,7 +406,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, 159.21572900000001, 150.0, 33.0 ],
+									"patching_rect" : [ 37.0, 159.21572900000001, 150.0, 30.0 ],
 									"text" : "beap adaptation by Luis Enrique D'Elias Ortega"
 								}
 
@@ -411,6 +414,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activefgdialcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
 									"id" : "obj-33",
 									"maxclass" : "live.dial",
@@ -418,16 +422,16 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 595.5, 70.146454000000006, 44.0, 47.0 ],
+									"patching_rect" : [ 595.5, 70.146454000000006, 44.0, 48.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 91.276832580566406, 44.0, 44.0, 47.0 ],
+									"presentation_rect" : [ 91.276832580566406, 44.0, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 1,
 											"parameter_longname" : "Damp[1]",
 											"parameter_mmax" : 1.0,
-											"parameter_shortname" : "Damp",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 1
+											"parameter_shortname" : "Damp"
 										}
 
 									}
@@ -440,6 +444,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activefgdialcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
 									"id" : "obj-32",
 									"maxclass" : "live.dial",
@@ -447,16 +452,16 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 515.0, 70.146454000000006, 44.0, 47.0 ],
+									"patching_rect" : [ 515.0, 70.146454000000006, 44.0, 48.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 45.638416290283203, 44.0, 44.0, 47.0 ],
+									"presentation_rect" : [ 45.638416290283203, 44.0, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 1,
 											"parameter_longname" : "Feedback2",
 											"parameter_mmax" : 4.0,
-											"parameter_shortname" : "FB2",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 1
+											"parameter_shortname" : "FB2"
 										}
 
 									}
@@ -469,6 +474,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activefgdialcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
 									"id" : "obj-31",
 									"maxclass" : "live.dial",
@@ -476,16 +482,16 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 440.5, 70.146454000000006, 44.0, 47.0 ],
+									"patching_rect" : [ 440.5, 70.146454000000006, 44.0, 48.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 44.0, 44.0, 47.0 ],
+									"presentation_rect" : [ 0.0, 44.0, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 1,
 											"parameter_longname" : "Feedback1",
 											"parameter_mmax" : 4.0,
-											"parameter_shortname" : "FB1",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 1
+											"parameter_shortname" : "FB1"
 										}
 
 									}
@@ -504,7 +510,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 393.5, 493.053954999999974, 32.5, 22.0 ],
+									"patching_rect" : [ 393.5, 493.053954999999974, 32.5, 20.0 ],
 									"text" : "*~ 5"
 								}
 
@@ -518,7 +524,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 301.0, 493.053954999999974, 32.5, 22.0 ],
+									"patching_rect" : [ 301.0, 493.053954999999974, 32.5, 20.0 ],
 									"text" : "+ 1"
 								}
 
@@ -532,7 +538,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 301.0, 548.053954999999974, 204.0, 22.0 ],
+									"patching_rect" : [ 301.0, 548.053954999999974, 204.0, 20.0 ],
 									"text" : "selector~ 2 1"
 								}
 
@@ -553,17 +559,17 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 301.0, 443.33822600000002, 40.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 126.915252685546875, 19.0, 52.0, 14.764644622802734 ],
+									"presentation_rect" : [ 128.915252685546875, 19.0, 52.0, 14.764644622802734 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_defer" : 1,
+											"parameter_type" : 2,
 											"parameter_longname" : "bypass[3]",
 											"parameter_initial_enable" : 1,
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
-											"parameter_shortname" : "bypass",
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_defer" : 1,
-											"parameter_type" : 2
+											"parameter_shortname" : "bypass"
 										}
 
 									}
@@ -609,7 +615,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 540.0, 249.362182999999987, 124.0, 22.0 ],
+									"patching_rect" : [ 540.0, 249.362182999999987, 124.0, 20.0 ],
 									"text" : "gen~ @gen freeverb"
 								}
 
@@ -623,7 +629,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 595.5, 179.362182999999987, 59.0, 22.0 ],
+									"patching_rect" : [ 595.5, 179.362182999999987, 59.0, 20.0 ],
 									"text" : "damp $1"
 								}
 
@@ -637,7 +643,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 515.0, 179.362182999999987, 45.0, 22.0 ],
+									"patching_rect" : [ 515.0, 179.362182999999987, 45.0, 20.0 ],
 									"text" : "fb2 $1"
 								}
 
@@ -651,7 +657,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 440.5, 179.362182999999987, 45.0, 22.0 ],
+									"patching_rect" : [ 440.5, 179.362182999999987, 45.0, 20.0 ],
 									"text" : "fb1 $1"
 								}
 
@@ -665,14 +671,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 401.0, 249.362182999999987, 124.0, 22.0 ],
+									"patching_rect" : [ 401.0, 249.362182999999987, 124.0, 20.0 ],
 									"text" : "gen~ @gen freeverb"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-19",
 									"maxclass" : "comment",
@@ -688,7 +694,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-13",
 									"maxclass" : "comment",
@@ -1046,10 +1052,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-101" : [ "Dry", "Dry", 0 ],
 			"obj-2::obj-31" : [ "Feedback1", "FB1", 0 ],
-			"obj-2::obj-26" : [ "bypass[3]", "bypass", 0 ],
 			"obj-2::obj-32" : [ "Feedback2", "FB2", 0 ],
+			"obj-2::obj-101" : [ "Dry", "Dry", 0 ],
+			"obj-2::obj-26" : [ "bypass[3]", "bypass", 0 ],
 			"obj-2::obj-33" : [ "Damp[1]", "Damp", 0 ],
 			"parameterbanks" : 			{
 
@@ -1059,22 +1065,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "freeverb.gendsp",
-				"bootpath" : "D:/Ierarchy/ELI_LAB STUDIO/8. Coding/Belial_8/Belial 8 beta/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/gen",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/gen",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "freeverb_allpass.gendsp",
-				"bootpath" : "D:/Ierarchy/ELI_LAB STUDIO/8. Coding/Belial_8/Belial 8 beta/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/gen",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/gen",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "freeverb_comb.gendsp",
-				"bootpath" : "D:/Ierarchy/ELI_LAB STUDIO/8. Coding/Belial_8/Belial 8 beta/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/gen",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/gen",
 				"type" : "gDSP",
 				"implicit" : 1
 			}

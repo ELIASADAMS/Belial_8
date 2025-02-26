@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 520.0, 883.0 ],
+		"rect" : [ 42.0, 85.0, 920.0, 883.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -46,12 +47,13 @@
 					"enablevscroll" : 0,
 					"id" : "obj-22",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "Module_Additional.maxpat",
+					"name" : "men4.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 0.0, 50.0, 1366.0, 301.0 ],
+					"patching_rect" : [ 0.0, 51.0, 1366.0, 301.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -60,7 +62,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
 					"fontname" : "Menlo Bold",
-					"htabcolor" : [ 0.63921568627451, 0.788235294117647, 0.717647058823529, 1.0 ],
+					"htabcolor" : [ 0.596078431372549, 0.345098039215686, 0.615686274509804, 1.0 ],
 					"id" : "obj-31",
 					"maxclass" : "tab",
 					"multiline" : 0,
@@ -68,12 +70,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2.0, 26.0, 200.0, 24.0 ],
+					"patching_rect" : [ 5.0, 27.0, 200.0, 24.0 ],
 					"prototypename" : "sexy menu roll",
 					"spacing_y" : 0.0,
-					"tabcolor" : [ 0.188235294117647, 0.333333333333333, 0.262745098039216, 1.0 ],
-					"tabs" : [ "CUTUP", "QUAD", "MIDI" ],
-					"textcolor" : [ 0.63921568627451, 0.788235294117647, 0.717647058823529, 1.0 ],
+					"tabcolor" : [ 0.325490196078431, 0.188235294117647, 0.333333333333333, 1.0 ],
+					"tabs" : [ "INST", "ADD", "FX" ],
+					"textcolor" : [ 0.776470588235294, 0.63921568627451, 0.788235294117647, 1.0 ],
 					"valign" : 2
 				}
 
@@ -87,9 +89,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 212.0, 25.0 ],
-					"text" : "ADDITIONAL",
-					"textcolor" : [ 0.505882382392883, 0.82745099067688, 0.423529416322708, 1.0 ]
+					"patching_rect" : [ 0.0, 0.071129769086838, 212.0, 25.0 ],
+					"text" : "DRUMMACHINE",
+					"textcolor" : [ 0.505882352941176, 0.827450980392157, 0.423529411764706, 1.0 ]
 				}
 
 			}
@@ -97,7 +99,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -124,7 +126,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -150,7 +152,7 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 0.0,
+					"angle" : 270.0,
 					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
 					"bordercolor" : [ 0.650980392156863, 0.12156862745098, 0.168627450980392, 1.0 ],
 					"id" : "obj-1",
@@ -158,7 +160,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 500.0, 35.0 ],
+					"patching_rect" : [ 0.0, 0.0, 500.0, 41.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -310,6 +312,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"midpoints" : [ 34.5, 141.0, 9.5, 141.0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"midpoints" : [ 175.0, 264.0, 99.0, 264.0, 99.0, 105.0, 34.5, 105.0 ],
 					"source" : [ "obj-21", 0 ]
@@ -359,7 +369,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 11.5, 87.0, 175.0, 87.0 ],
+					"midpoints" : [ 14.5, 87.0, 175.0, 87.0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -389,24 +399,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-22::obj-47" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "Module_Additional.maxpat",
-				"bootpath" : "D:/Ierarchy/ELI_LAB STUDIO/8. Coding/Belial_8/Belial 8 beta/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
