@@ -2,8 +2,8 @@
 	"name" : "Belial 8 beta",
 	"version" : 1,
 	"creationdate" : 3779091429,
-	"modificationdate" : 3823434423,
-	"viewrect" : [ -8.0, 62.0, 1280.0, 708.0 ],
+	"modificationdate" : 3824388268,
+	"viewrect" : [ 0.0, 62.0, 1280.0, 708.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,111 +14,6 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"Module_Main_Rythm.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Layout_SW+Quad.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_SecretWeapon_Old.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"secretweapon.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"renonedsw.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"sw.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Null.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Layout_Mixer.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"mixer.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Submodule_Mixer_Control.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Granul.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"rgrain.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"rchoose.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"transratio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Layout_Joystick.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Joystick.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Reverb.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Layout_Drummachine.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Drummachine.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Module_Dopplr.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"pan2S.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"IO.maxpat" : 			{
@@ -136,17 +31,12 @@
 				"local" : 1
 			}
 ,
-			"dv12.maxpat" : 			{
+			"Layout_Drummachine.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"VERBORATOR.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"poly.moogladderx2.maxpat" : 			{
+			"Module_Drummachine.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -161,7 +51,42 @@
 				"local" : 1
 			}
 ,
-			"Module_Cue_Player.maxpat" : 			{
+			"Layout_Joystick.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Module_Joystick.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Layout_Mixer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Submodule_Mixer_Control.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mixer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Layout_SW+Quad.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"renonedsw.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"secretweapon.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -172,6 +97,81 @@
 			}
 ,
 			"Module_Under_Construction.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Module_Cue_Player.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Module_Dopplr.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"pan2S.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Module_Granul.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"rchoose.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"rgrain.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"transratio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Module_Main_Rythm.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Module_Null.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Module_Reverb.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"VERBORATOR.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dv12.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"poly.moogladderx2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Module_SecretWeapon_Old.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sw.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -371,5 +371,6 @@
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
-	"sortmode" : 1
+	"sortmode" : 1,
+	"viewmode" : 0
 }

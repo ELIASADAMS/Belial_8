@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 26.0, 81.0, 923.0, 875.0 ],
+		"rect" : [ 26.0, 51.0, 923.0, 905.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,51 +37,28 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"bgcolor" : [ 0.117647058823529, 0.227450980392157, 0.372549019607843, 0.0 ],
 					"border" : 4,
-					"bordercolor" : [ 0.505882352941176, 0.827450980392157, 0.423529411764706, 1.0 ],
 					"id" : "obj-9",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.666671752929688, -2.666666984558105, 515.2921142578125, 329.64776611328125 ],
+					"patching_rect" : [ 574.666671752929688, 226.333333015441895, 164.2921142578125, 117.64776611328125 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 500.0, 50.0 ],
 					"proportion" : 0.5,
-					"rounded" : 16
+					"rounded" : 16,
+					"style" : "PanelJ"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-22",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "secretweapon.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 74.0, 453.0, 590.0, 300.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ -12.666666984558105, 51.0, 500.0, 302.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
-					"fontname" : "Menlo Bold",
-					"htabcolor" : [ 0.505882352941176, 0.827450980392157, 0.423529411764706, 1.0 ],
 					"id" : "obj-31",
 					"maxclass" : "tab",
 					"mode" : 1,
@@ -96,39 +73,57 @@
 					"rounded" : 16.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "tab[27]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 2.0,
-							"parameter_initial" : [ -1.0 ],
-							"parameter_shortname" : "tab[27]",
 							"parameter_enum" : [ "SECRETWEAPON", "WARP", "QUAD" ],
+							"parameter_initial" : [ -1.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "tab[27]",
+							"parameter_mmax" : 2,
+							"parameter_shortname" : "tab[27]",
 							"parameter_type" : 2
 						}
 
 					}
 ,
 					"spacing_y" : 0.0,
-					"tabcolor" : [ 0.2, 0.329411764705882, 0.168627450980392, 1.0 ],
+					"style" : "TabJ",
 					"tabs" : [ "SECRETWEAPON", "WARP", "QUAD" ],
-					"textcolor" : [ 0.725490196078431, 0.843137254901961, 0.870588235294118, 1.0 ],
 					"varname" : "tab"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Menlo Bold",
-					"fontsize" : 16.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 1.0, 212.0, 25.0 ],
+					"patching_rect" : [ 0.0, 1.0, 213.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 1.0, 207.0, 25.0 ],
-					"text" : "SW + QUAD",
-					"textcolor" : [ 0.505882382392883, 0.82745099067688, 0.423529416322708, 1.0 ]
+					"style" : "CommentJ",
+					"text" : "SW + QUAD"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-22",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "secretweapon.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ -1000.0, 0.0 ],
+					"patching_rect" : [ 74.0, 453.0, 590.0, 300.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 50.0, 505.0, 302.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -148,20 +143,16 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
 					"border" : 4,
-					"bordercolor" : [ 0.505882352941176, 0.827450980392157, 0.423529411764706, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "panel",
-					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 843.0, 205.0, 500.0, 329.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 1.0, 500.0, 351.0 ],
-					"proportion" : 0.5,
-					"rounded" : 16
+					"rounded" : 16,
+					"style" : "PanelJ"
 				}
 
 			}
@@ -241,7 +232,7 @@
 					"patching_rect" : [ 165.5, 181.0, 45.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 165.5, 181.0, 45.0, 22.0 ],
-					"text" : "$1 500"
+					"text" : "$1 250"
 				}
 
 			}
@@ -459,37 +450,81 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-22::obj-6::obj-848" : [ "live.gain~[8]", "level", 0 ],
 			"obj-22::obj-103::obj-154" : [ "live.gain~[13]", "level", 0 ],
-			"obj-22::obj-235" : [ "live.gain~[26]", "live.gain~", 0 ],
-			"obj-22::obj-31" : [ "tab[4]", "tab[1]", 0 ],
 			"obj-22::obj-103::obj-848" : [ "live.gain~[14]", "level", 0 ],
-			"obj-31" : [ "tab[27]", "tab[27]", 0 ],
-			"obj-22::obj-6::obj-154" : [ "live.gain~[7]", "level", 0 ],
-			"obj-22::obj-99" : [ "tab[6]", "tab", 0 ],
+			"obj-22::obj-104" : [ "tab[7]", "tab[2]", 0 ],
 			"obj-22::obj-108::obj-154" : [ "live.gain~[11]", "level", 0 ],
 			"obj-22::obj-108::obj-848" : [ "live.gain~[12]", "level", 0 ],
-			"obj-22::obj-282" : [ "live.gain~[15]", "live.gain~", 0 ],
-			"obj-22::obj-98::obj-848" : [ "live.gain~[10]", "level", 0 ],
-			"obj-22::obj-104" : [ "tab[7]", "tab[2]", 0 ],
-			"obj-22::obj-98::obj-154" : [ "live.gain~[9]", "level", 0 ],
 			"obj-22::obj-109" : [ "tab[5]", "tab[3]", 0 ],
+			"obj-22::obj-235" : [ "live.gain~[26]", "live.gain~", 0 ],
+			"obj-22::obj-282" : [ "live.gain~[15]", "live.gain~", 0 ],
+			"obj-22::obj-31" : [ "tab[4]", "tab[1]", 0 ],
+			"obj-22::obj-6::obj-154" : [ "live.gain~[7]", "level", 0 ],
+			"obj-22::obj-6::obj-848" : [ "live.gain~[8]", "level", 0 ],
+			"obj-22::obj-98::obj-154" : [ "live.gain~[9]", "level", 0 ],
+			"obj-22::obj-98::obj-848" : [ "live.gain~[10]", "level", 0 ],
+			"obj-22::obj-99" : [ "tab[6]", "tab", 0 ],
+			"obj-31" : [ "tab[27]", "tab[27]", 0 ],
 			"parameterbanks" : 			{
 
 			}
+,
+			"parameter_overrides" : 			{
+				"obj-22::obj-103::obj-154" : 				{
+					"parameter_longname" : "live.gain~[13]"
+				}
+,
+				"obj-22::obj-103::obj-848" : 				{
+					"parameter_longname" : "live.gain~[14]"
+				}
+,
+				"obj-22::obj-108::obj-154" : 				{
+					"parameter_longname" : "live.gain~[11]"
+				}
+,
+				"obj-22::obj-108::obj-848" : 				{
+					"parameter_longname" : "live.gain~[12]"
+				}
+,
+				"obj-22::obj-235" : 				{
+					"parameter_longname" : "live.gain~[26]"
+				}
+,
+				"obj-22::obj-282" : 				{
+					"parameter_longname" : "live.gain~[15]"
+				}
+,
+				"obj-22::obj-6::obj-154" : 				{
+					"parameter_longname" : "live.gain~[7]"
+				}
+,
+				"obj-22::obj-6::obj-848" : 				{
+					"parameter_longname" : "live.gain~[8]"
+				}
+,
+				"obj-22::obj-98::obj-154" : 				{
+					"parameter_longname" : "live.gain~[9]"
+				}
+,
+				"obj-22::obj-98::obj-848" : 				{
+					"parameter_longname" : "live.gain~[10]"
+				}
 
+			}
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "secretweapon.maxpat",
-				"bootpath" : "D:/Ierarchy/ELI_LAB STUDIO/8. Coding/Belial_8/Belial 8 beta/patchers",
+				"name" : "renonedsw.maxpat",
+				"bootpath" : "~/Documents/GitHub/Belial_8/Belial 8 beta/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "renonedsw.maxpat",
-				"bootpath" : "D:/Ierarchy/ELI_LAB STUDIO/8. Coding/Belial_8/Belial 8 beta/patchers",
+				"name" : "secretweapon.maxpat",
+				"bootpath" : "~/Documents/GitHub/Belial_8/Belial 8 beta/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -497,13 +532,70 @@
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
+				"name" : "CommentJ",
+				"default" : 				{
+					"clearcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"fontface" : [ 0 ],
+					"fontname" : [ "Menlo Bold" ],
+					"fontsize" : [ 16.0 ],
+					"textcolor" : [ 0.890196078431372, 0.847058823529412, 0.780392156862745, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "PanelJ",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"angle" : 270.0,
+						"color" : [ 0.117647058823529, 0.227450980392157, 0.372549019607843, 1.0 ],
+						"color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
+						"color2" : [ 0.2, 0.2, 0.2, 1 ],
+						"proportion" : 0.5,
+						"type" : "color"
+					}
+,
+					"color" : [ 0.890196078431372, 0.847058823529412, 0.780392156862745, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "TAbJ2",
+				"default" : 				{
+					"clearcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"color" : [ 0.823529411764706, 0.843137254901961, 0.874509803921569, 1.0 ],
+					"elementcolor" : [ 0.117647058823529, 0.227450980392157, 0.372549019607843, 1.0 ],
+					"fontname" : [ "Menlo Bold" ],
+					"textcolor_inverse" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "TabJ",
+				"default" : 				{
+					"clearcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"color" : [ 0.890196078431372, 0.847058823529412, 0.780392156862745, 1.0 ],
+					"elementcolor" : [ 0.486274509803922, 0.462745098039216, 0.423529411764706, 1.0 ],
+					"fontname" : [ "Menlo Bold" ],
+					"textcolor_inverse" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "menu poll",
 				"default" : 				{
-					"elementcolor" : [ 0.2, 0.329411764705882, 0.168627450980392, 1.0 ],
-					"color" : [ 0.505882352941176, 0.827450980392157, 0.423529411764706, 1.0 ],
 					"clearcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
-					"textcolor_inverse" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
-					"fontname" : [ "Menlo Bold" ]
+					"color" : [ 0.505882352941176, 0.827450980392157, 0.423529411764706, 1.0 ],
+					"elementcolor" : [ 0.2, 0.329411764705882, 0.168627450980392, 1.0 ],
+					"fontname" : [ "Menlo Bold" ],
+					"textcolor_inverse" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

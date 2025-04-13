@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 65.0, 181.0, 773.0, 578.0 ],
+		"rect" : [ 65.0, 151.0, 773.0, 608.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,39 +37,33 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Menlo Bold",
-					"fontsize" : 16.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 75.0, 212.0, 25.0 ],
+					"patching_rect" : [ 130.0, 75.0, 213.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 2.0, 212.0, 25.0 ],
-					"text" : "NULL",
-					"textcolor" : [ 0.505882382392883, 0.82745099067688, 0.423529416322708, 1.0 ]
+					"style" : "CommentJ",
+					"text" : "NULL"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
 					"border" : 4,
-					"bordercolor" : [ 0.505882352941176, 0.827450980392157, 0.423529411764706, 1.0 ],
 					"id" : "obj-24",
 					"maxclass" : "panel",
-					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1327.0, 1404.0, 500.3389892578125, 352.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 500.3389892578125, 335.38983154296875 ],
-					"proportion" : 0.5,
-					"rounded" : 16
+					"rounded" : 16,
+					"style" : "PanelJ"
 				}
 
 			}
@@ -164,7 +158,39 @@
 			}
  ],
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "CommentJ",
+				"default" : 				{
+					"clearcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"fontface" : [ 0 ],
+					"fontname" : [ "Menlo Bold" ],
+					"fontsize" : [ 16.0 ],
+					"textcolor" : [ 0.890196078431372, 0.847058823529412, 0.780392156862745, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "PanelJ",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"angle" : 270.0,
+						"color" : [ 0.117647058823529, 0.227450980392157, 0.372549019607843, 1.0 ],
+						"color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
+						"color2" : [ 0.2, 0.2, 0.2, 1 ],
+						"proportion" : 0.5,
+						"type" : "color"
+					}
+,
+					"color" : [ 0.890196078431372, 0.847058823529412, 0.780392156862745, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
